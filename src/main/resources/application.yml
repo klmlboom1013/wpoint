@@ -1,0 +1,16 @@
+server:
+  port: 18090
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  h2:
+    console:
+      enabled: true  # H2 Console사용 여부 (H2 Database를 UI로 제공 기능)
+      path: /h2-console  # H2 Console의 Path [example: http://localhost:8080/h2-console]
+  # Database Setting Info (Database를 H2로 사용하기 위해 H2연결 정보 입력)
+  datasource:
+    driver-class-name: org.h2.Driver  # Database를 H2로 사용하겠다.
+    url: jdbc:h2:~/wpoint # H2 접속 정보
+    username: wpay # H2 접속 시 입력할 username 정보 (원하는 것으로 입력)
+    password: # H2 접속 시 입력할 password 정보 (원하는 것으로 입력)
