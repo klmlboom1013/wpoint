@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.inicis</groupId>
-	<artifactId>wpaypoint</artifactId>
+	<artifactId>wpoint</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>wpaypoint</name>
-	<description>wpaypoint</description>
+	<name>wpoint</name>
+	<description>wpoint</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
